@@ -1,0 +1,57 @@
+site_name: "An introduction to EESSI"
+theme:
+  name: material
+  logo: img/logos/EESSI_logo_horizontal.png
+  features:
+      - instant
+extra_css:
+  - stylesheets/extra.css
+repo_name: An introduction to EESSI
+repo_url: https://github.com/EESSI/eessi-tutorial
+edit_uri: edit/main/docs
+nav:
+  - "Home": index.md
+  - EESSI:
+    - "What is EESSI?": eessi/what-is-eessi.md
+    - "Motivation & goals": eessi/motivation-goals.md
+    - "Inspiration": eessi/inspiration.md
+    - "High-level design": eessi/high-level-design.md
+    - "Using EESSI": eessi/using-eessi.md
+    - "Getting support": eessi/support.md
+  - "Appendix: Terminology": appendix/terminology.md
+plugins:
+  # show revision date at bottom of each page
+  - git-revision-date-localized
+  # necessary for search to work
+  - search
+markdown_extensions:
+  # enable adding HTML attributes and CSS classes
+  - attr_list
+  # notes, warnings, hints, ...
+  - admonition
+  # use MarkDown formatting in HTML blocks
+  - md_in_html
+  # code blocks with syntax highlighting, graphs
+  - pymdownx.superfences
+  # clickable details
+  - pymdownx.details
+  # tabbed contents
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra:
+  # add links in bottom right
+  social:
+      #- type: github
+      #icon: octicons/logo-github
+      #link: https://github.com/easybuilders
+      #- icon: fontawesome/brands/twitter
+      #link: https://twitter.com/easy_build
+      #- icon: fontawesome/brands/youtube
+      #link: https://www.youtube.com/c/easybuilders
+      #- icon: fontawesome/solid/book
+      #link: https://easybuild.readthedocs.io

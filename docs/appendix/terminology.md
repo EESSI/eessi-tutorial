@@ -64,3 +64,19 @@ in a single *package* to distribute as a whole.
     files that are part of that software installation.
 
 ---
+
+## Stratum 1 replica server { #stratum1 }
+
+A **Stratum 1 replica server**, often simply referred to a *Stratum 1* (Stratum One), is a standard web server
+that acts as a mirror server for one or more CernVM-FS [repositories](#repository).
+
+It holds a complete copy of the data for each CernVM-FS repository it serves,
+and automatically synchronises with the [Stratum 0](#stratum0).
+
+There is typically a *network* of several Stratum 1 servers for a CernVM-FS repository,
+which are geographically distributed.
+
+[Clients](#client) can be configured to automatically connect to the closest Stratum 1 server by using
+the CernVM-FS [GeoAPI](https://cvmfs.readthedocs.io/en/stable/cpt-configure.html#ordering-of-servers-according-to-geographic-proximity).
+
+For more information, see the [CernVM-FS documentation](https://cvmfs.readthedocs.io/en/stable/cpt-replica.html).

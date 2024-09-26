@@ -24,11 +24,6 @@ specific to those repositories in order to access them.
     large number of worker nodes on which software provided by one or more
     CernVM-FS repositories will be used.
 
-    After covering the basic client setup in this section, we will outline
-    how to make accessing of CernVM-FS repositories more reliable and performant,
-    by also setting up a [proxy server](proxy.md) and [CernVM-FS Stratum 1
-    replica server](stratum1.md).
-
 
 ## Installing CernVM-FS client
 
@@ -92,8 +87,6 @@ More information on the structure of `/etc/cvmfs` and supported configuration se
     ``` { .ini .copy }
     CVMFS_HTTP_PROXY="DIRECT"
     ```
-
-    We will get back to `CVMFS_HTTP_PROXY` later when [setting up a proxy server](proxy.md).
 
 ??? note "Maximum size of client cache *(click to expand)*"
 

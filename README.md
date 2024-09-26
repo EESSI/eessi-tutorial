@@ -1,4 +1,4 @@
-# cvmfs-tutorial-hpc-best-practices
-Contents for "Best Practices for CernVM-FS in HPC" tutorial
+# Contents for "Introduction to EESSI" tutorial
 
-Online tutorial planned for [Mon 4 Dec 2023 (13:30-17:00 CET)](https://time.is/compare/1230_4_Dec_2023_in_UTC), registration via https://event.ugent.be/registration/cvmfshpc202312
+This repository is for a general introductory tutorial to EESSI. It is intended for general usage but will primarily
+be up-to-date for the events directly organised by EESSI.

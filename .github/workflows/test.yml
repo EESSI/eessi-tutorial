@@ -3,18 +3,20 @@ name: build tutorial
 on: [push, pull_request]
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
     - name: checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+      with:
+          fetch-depth: 0
 
     - name: set up Python
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@13ae5bb136fac2878aff31522b9efb785519f984 # v4.3.0
       with:
         python-version: 3.8
 
     - name: Codespell action
-      uses: codespell-project/actions-codespell@master
+      uses: codespell-project/actions-codespell@22ff5a2e4b591290baf82d47c9feadac31c65441 # v1.0
       with:
         check_filenames: true
         ignore_words_list: nd

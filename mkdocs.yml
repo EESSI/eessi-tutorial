@@ -1,7 +1,7 @@
 site_name: "An introduction to EESSI"
 theme:
   name: material
-  logo: img/logos/EESSI_logo_horizontal.png
+  logo: img/logos/EESSI.png
   features:
       - instant
 extra_css:

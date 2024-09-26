@@ -71,7 +71,7 @@ A **Stratum 1 replica server**, often simply referred to a *Stratum 1* (Stratum 
 that acts as a mirror server for one or more CernVM-FS [repositories](#repository).
 
 It holds a complete copy of the data for each CernVM-FS repository it serves,
-and automatically synchronises with the [Stratum 0](#stratum0).
+and automatically synchronises with the main Stratum 0.
 
 There is typically a *network* of several Stratum 1 servers for a CernVM-FS repository,
 which are geographically distributed.

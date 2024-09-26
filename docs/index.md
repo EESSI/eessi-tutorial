@@ -28,7 +28,7 @@ Once we have slides for this tutorial available they will appear here.
 
 ## Intended audience
 
-This tutorial is intended for a general audience who are familiar with running sofware from the command line;
+This tutorial is intended for a general audience who are familiar with running software from the command line;
 no specific prior knowledge or experience is required.
 
 We expect it to be most valuable to people who are interested in running scientific software on variety of

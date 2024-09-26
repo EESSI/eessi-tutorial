@@ -1,7 +1,7 @@
-# Best Practices for CernVM-FS in HPC
+# An introduction to EESSI
 
 <p align="center">
-<img src="img/cvmfs_hpc.png" alt="CernVM-FS logo" width="40%"/></br>
+<img src="img/logos/EESSI_logo_horizontal.png" alt="EESSI logo" width="40%"/></br>
 </p>
 
 

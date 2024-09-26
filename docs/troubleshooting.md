@@ -320,7 +320,7 @@ HTTP/1.1 403 Forbidden
 ```
 
 In this case, you should check whether a firewall is being used,
-or whether an ACL in the [Squid proxy configuration](access/proxy.md#configuration) is the culprit.
+or whether an ACL in the Squid proxy configuration is the culprit.
 
 If you see `404` as return code, you made a typo in the `curl` command :wink::
 ```
@@ -332,13 +332,10 @@ Maybe you forgot the '`.`' in `.cvmfspublished`?
 
     A Stratum 1 server does not provide access to *all* possible CernVM-FS repositories.
 
-    It has to be configured to serve particular repositories, as shown in [Private Stratum 1 replica server - Creating repository replica](access/stratum1.md#creating-repository-replica).
 
 #### Network latency & bandwidth
 
-To check the network latency and bandwidth, you can use [`iperf3`](https://iperf.fr/) and [`tcptraceroute`](https://linux.die.net/man/1/tcptraceroute),
-see also [*Network details* in *System configurations* of the Performance section](
-performance.md#system_configurations) of this tutorial.
+To check the network latency and bandwidth, you can use [`iperf3`](https://iperf.fr/) and [`tcptraceroute`](https://linux.die.net/man/1/tcptraceroute).
 
 ### Mounting problems {: #mounting }
 

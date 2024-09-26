@@ -6,8 +6,7 @@ and is aligned with the [motivation and goals](motivation-goals.md) of the proje
 In the remainder of this section of the tutorial, we will **explore the layered structure of the EESSI software stack**,
 and [how to use it](using-eessi.md).
 
-In the [next section](../access/index.md) will cover in detail how you can get access to EESSI
-(and other publicly available CernVM-FS repositories).
+In the [next section](../access/index.md) will cover in detail how you can get access to EESSI.
 
 ## Layered structure
 
@@ -26,8 +25,9 @@ the EESSI project consists of 3 layers, which are constructed by leveraging vari
 ### Filesystem layer {: #filesystem_layer }
 
 
-The *filesystem layer* uses [**CernVM-FS**](../cvmfs/what-is-cvmfs.md) to distribute the EESSI software stack to
-client systems.
+The *filesystem layer* uses 
+CernVM-FS**](https://multixscale.github.io/cvmfs-tutorial-hpc-best-practices/cvmfs/what-is-cvmfs/) to distribute the
+EESSI software stack to client systems.
 
 As presented in the previous section, CernVM-FS is a mature open source software project
 that was created exactly for this purpose:

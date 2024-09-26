@@ -7,7 +7,9 @@ Let's break it down step by step.
 
 ## 0) Is EESSI available?
 
-First, check whether the EESSI [CernVM-FS](../cvmfs/what-is-cvmfs.md) repository is available on your system.
+First, check whether the EESSI 
+[CernVM-FS](https://multixscale.github.io/cvmfs-tutorial-hpc-best-practices/cvmfs/what-is-cvmfs/) repository is
+available on your system.
 
 Try checking the contents of the `/cvmfs/software.eessi.io` directory with the `ls` command:
 
@@ -126,12 +128,10 @@ $ command -v python
     You may notice a bit of "lag" initially when starting to use software provided by the EESSI software layer.
 
     This is expected, since CernVM-FS may need to first download the files that are required
-    to run the software you are using;
-    see also [On-demand downloading of files and metadata](../cvmfs/what-is-cvmfs.md#features-ondemand).
+    to run the software you are using.
 
     You should not observe any significant start-up delays anymore when running the same software shortly after,
-    since then CernVM-FS will be able to serve the necessary files from the local client cache;
-    see also [Multi-level caching](../cvmfs/what-is-cvmfs.md#features-caching).
+    since then CernVM-FS will be able to serve the necessary files from the local client cache.
 
 ---
 
